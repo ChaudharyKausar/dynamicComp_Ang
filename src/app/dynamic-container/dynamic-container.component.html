@@ -1,0 +1,12 @@
+<h2>Dynamic Components in angular</h2>
+<ul>
+    <li (click)="createComponent( ProductsName.mobile)">Mobile</li>
+    <li (click)="createComponent( ProductsName.laptop)">Laptop</li>
+    <li (click)="createComponent( ProductsName.watch)">Watch</li>
+    <li (click)="createComponent( ProductsName.tv)">TV</li>
+    <li (click)="createComponent( ProductsName.bluetooth)">BlueTooth</li>
+</ul>
+
+<div class="display black-border">
+    <ng-container #container> </ng-container>
+</div>
